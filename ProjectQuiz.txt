@@ -1,9 +1,9 @@
-*****************************************************
-Project Name:  Recipe Display Application
+************************************************************************
+Project Name:  Recipe Display Application  --  Project Quiz
 Author: 
 Date:   
 Participation Assignment (25 points)
-*****************************************************
+************************************************************************
 
 Instructions:  
 Answer the following questions for Lesson 7 Assignment
@@ -13,7 +13,7 @@ Question #1:  (5 points)
 ++++++++++++
 Why should you ensure that the script element that links to the jQuery library file comes before any other script element for a .js file that includes jQuery code?
 
-
+The script element that links to the jQuery library file should come before any other script element for a js. file that includes jQuery code because browsers parse the contents of the jQuery library before attempting to interpret the jQuery statements in script.js. Else, the jQuery syntax in script.js could cause syntas errors if browsers encounter it before parsing the jQuery library.
 
 
 ++++++++++++
@@ -22,7 +22,7 @@ Question #2:  (5 points)
 Why should you avoid including jQuery in a project if you don't need it?
 
 
-
+One should avoid including jQuery in a project if one doesn't need it because it can slow the time required for the app to load because users have to download the jQuery library.
 
 
 
@@ -31,7 +31,7 @@ Question #3:  (5 points)
 ++++++++++++
 How does every jQuery statement start?
 
-
+Every jQuery statement starts with $. The $ symbol specifies that any code that follows should be interpreted using the jQuery library.
 
 
 
@@ -39,3 +39,9 @@ How does every jQuery statement start?
 Question #4: (10 points)
 ++++++++++++
 What is a Content Delivery Network (CDN)?  List and explain at least FOUR advantages in using a CDN.
+
+A CDN is a system of distributed servers that deliver webpages and other web content to a user based on the geographic locations of the user, the origin of the webpage, and a content delivery server. Four benefits of using a CDN is higher availability, speed, control of asset delivery, and increase in the number of concurrent users. 
+One has higher availibilty because CDNs with distributed data centers around the world. This means that content in more highly available for visitors.
+Speed is a result of CDNs being strategically placed geographically, which offloads some of the CPU and RAM power from individual's servers and results in a faster experience.
+Another advantage of CDNs is that there is more control of asset delivery and network load is optimized. Operators have the ability to deliver real-time load statistics, optimixe capacity per customer, display active regions, indicate which assets are popular, and report viewing details to their customers. 
+The last advantage is an increase in the number of concurrent users as a result of strategically placed servers, which results in a high network capacity backbone that equates to a significant increase in the number of users accessing the network at a given time.
